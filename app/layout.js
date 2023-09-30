@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Bang',
-  description: "Your's home BANG!",
+  description: "Your's home BANG!"
 }
 
 export default function RootLayout({ children }) {
