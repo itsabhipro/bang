@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🇬🇧 Bang — Online Plumber Booking Platform (UK)
 
-## Getting Started
+Bang is a modern, fast, and user‑friendly **UK‑based online plumber service platform**, built using **Next.js 13 (App Router)** and **TailwindCSS**.  
+It allows customers to quickly find, book, and manage plumbing services — from emergency repairs to scheduled maintenance — with a clean and intuitive interface.
 
-First, run the development server:
+This repository contains the frontend application for the Bang platform.
+
+---
+
+## 🚀 Features
+
+### 🛠 For Customers
+- Browse and book certified UK plumbers  
+- Real‑time availability (future integration)  
+- Mobile‑friendly UI  
+- Simple, fast booking flow  
+- Transparent service categories & pricing (planned)
+
+### 🔧 For Plumbers (Future Scope)
+- Profile management  
+- Job scheduling  
+- Earnings dashboard  
+- Service area configuration  
+
+### 💻 Technical Features
+- Built with **Next.js 13 App Router**
+- Styled using **TailwindCSS**
+- Component‑based architecture (`components/containers`)
+- Centralised constants & config
+- Optimised fonts using `next/font`
+- Deployed easily on **Vercel**
+
+---
+bang/ │ ├── app/                     # Next.js App Router pages & layouts ├── components/ │   └── containers/          # Reusable UI components ├── constants/               # Static values, config, enums ├── public/                  # Static assets │ ├── next.config.js           # Next.js configuration ├── tailwind.config.js       # TailwindCSS configuration ├── jsconfig.json            # Path aliases ├── package.json             # Dependencies & scripts └── README.md                # Project documentation
+
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Framework | Next.js 13 (App Router) |
+| Styling | TailwindCSS |
+| Language | JavaScript |
+| Deployment | Vercel |
+| Fonts | next/font (Inter) |
+
+---
+
+## ▶️ Getting Started
+
+### 1️⃣ Install dependencies
 
 ```bash
-npm run dev
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-```
+yarn install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📁 Project Structure
